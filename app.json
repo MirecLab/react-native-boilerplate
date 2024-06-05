@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "template",
+    "slug": "template",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": [
+      [
+        "@react-native-google-signin/google-signin"
+      ]
+    ],
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.mireclab.app"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fbab3ad-e903-463f-ad2c-019a8bc592c7"
+      }
+    },
+    "owner": "mirecos"
+  }
+}
