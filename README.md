@@ -14,6 +14,11 @@ $ git clone https://github.com/Mirecos/react-native-templates
 $ cd react-native-templates
 $ npm install
 ```
+Once dependencies are installed there is two more steps.
+
+- First, fill the ```/src/config/firebase/FirebaseConfig.tsx``` file with your Firebase project informations. Those are given when creating a project with your firebase dashboard.
+- Second, add a ```google-services.json``` at the root of the project which allows authentication with google on android. This authentication method must be allowed in the firebase dashboard.
+
 ## Releases notes
 
 <details>
