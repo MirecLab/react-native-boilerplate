@@ -16,5 +16,4 @@ config.ts
 .DS_Store
 
 android
-src/config/firebase/*.tsx
 google-services.json
