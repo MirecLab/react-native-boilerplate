@@ -17,4 +17,3 @@ config.ts
 
 android
 google-services.json
-src/config/firebase/FirebaseConfig.tsx
