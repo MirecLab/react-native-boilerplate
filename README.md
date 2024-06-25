@@ -19,6 +19,13 @@ Once dependencies are installed there is two more steps.
 - First, fill the ```/src/config/firebase/FirebaseConfig.tsx``` file with your Firebase project informations. Those are given when creating a project with your firebase dashboard.
 - Second, add a ```google-services.json``` at the root of the project. This file may be downloaded from ```settings->general``` in your firebase dashboard. Make sure to add an android application in the project's apps.
 
+## How to run 
+
+```
+$ npx expo prebuild --clean
+$ npx expo run:android
+```
+
 ## Releases notes
 
 <details>
