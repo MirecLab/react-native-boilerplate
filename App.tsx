@@ -15,6 +15,7 @@ import Logger from './src/config/logger/logger';
 import UserContext from './src/context/User';
 import { FIREBASE_AUTH } from './src/config/firebase/FirebaseConfig';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
+import Trainings from './src/pages/Trainings';
 
 const Tab = createBottomTabNavigator();
 
@@ -69,7 +70,7 @@ export default function App() {
             >
                 <Tab.Screen
                   name="Trainings"
-                  component={Home}
+                  component={Trainings}
                   options={{
                     headerTitle: (props) => (
                       <PageHeader
