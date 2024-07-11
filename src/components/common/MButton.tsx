@@ -5,7 +5,7 @@ import ThemeContext from '../../context/Theme';
 interface MButtonProps{
     text : string,
     onPress? : ()=>void,
-    style: any
+    style?: any
 }
 
 
